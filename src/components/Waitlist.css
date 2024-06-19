@@ -1,0 +1,80 @@
+css
+Copy code
+/* src/components/Waitlist.css */
+
+body {
+  font-family: 'Arial', sans-serif;
+  background: #f9f9f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.waitlist-container {
+  max-width: 500px;
+  padding: 30px;
+  text-align: center;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border: 2px solid #000; /* Black border */
+  margin-left: 27%;
+}
+
+.waitlist-header h1 {
+  margin-bottom: 10px;
+  color: #000; /* Black text */
+}
+
+.waitlist-header p {
+  margin-bottom: 30px;
+  color: #666;
+}
+
+.waitlist-form {
+  display: grid;
+  gap: 15px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.form-group label {
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #000; /* Black text */
+}
+
+.form-group input {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.submit-btn {
+  padding: 12px 20px;
+  font-size: 16px;
+  color: #000; /* Black text */
+  background-color: #ffd700; /* Yellow background */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+  background-color: #ffbf00; /* Darker yellow */
+}
+
+.thank-you-message {
+  margin-top: 20px;
+  color: green;
+  font-weight: bold;
+}
